@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./Assets/Images/logo/marvel_logo.jpg" />
+      <h3>Marvel Entertainment</h3>
+      <input type="text" id="search" placeholder="Search movies..." />
+    </header>
+
+    <nav class="nav">
+      <a href="./index.html" class="active">Movies</a>
+      <a href="#series">Series</a>
+    </nav>
+
+    <div class="container">
+      <div id="noResults" class="no-results" style="display:none;">
+        <div class="no-results-icon">🎬</div>
+        <h2>No Results Found</h2>
+        <p>We couldn't find any Marvel movies matching <span id="searchTerm"></span></p>
+      </div>
+      <a href="./Assets/Templates/Phase_1/iron_man_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/iron_man_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Tony Stark, a billionaire genius, builds a powerful suit of armor
+              after being captured by terrorists. He becomes Iron Man and fights
+              against weapons misuse and global threats.
+            </p>
+          </div>
+        </div>
+        <p class="title">Iron Man 1</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_1/hulk_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/hulk_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Bruce Banner transforms into the Hulk whenever he gets angry.
+              While searching for a cure, he is hunted by the military and faces
+              a powerful enemy known as the Abomination.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Incredible Hulk</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_1/iron_man_2.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/iron_man_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Tony Stark struggles with his identity as Iron Man while facing
+              new enemies and a deadly health issue. He must protect his
+              technology from falling into the wrong hands.
+            </p>
+          </div>
+        </div>
+        <p class="title">Iron Man 2</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_1/thor_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/thor_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Thor, the god of thunder, is banished to Earth after acting
+              recklessly. He must learn humility and protect Earth from his
+              brother Loki’s dangerous plans.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thor</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_1/captain_america_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/captain_america_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Steve Rogers transforms into Captain America during World War II.
+              He fights against the Red Skull and becomes a symbol of courage
+              and justice.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain America: The First Avenger</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_1/avengers_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_1/avengers_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Earth’s mightiest heroes—Iron Man, Captain America, Thor, Hulk,
+              Black Widow, and Hawkeye—join forces to stop Loki and an alien
+              invasion threatening humanity.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Avengers</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/iron_man_3.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/iron_man_3.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Tony Stark faces a powerful terrorist known as the Mandarin while
+              dealing with personal trauma. He must rely on his intelligence
+              more than his suit.
+            </p>
+          </div>
+        </div>
+        <p class="title">Iron Man 3</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/thor_2.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/thor_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Thor battles a dark force known as the Dark Elves who threaten the
+              universe. He must team up with Loki to save both Earth and Asgard.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thor: The Dark World</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/captain_america_2.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/captain_america_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Captain America uncovers a conspiracy within S.H.I.E.L.D. while
+              facing a mysterious assassin known as the Winter Soldier.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain America: The Winter Soldier</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/Guardians_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/guardians_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Peter Quill teams up with a group of unlikely allies to protect a
+              powerful Infinity Stone from falling into the wrong hands.
+              Together, they become the Guardians of the Galaxy and fight to
+              save the universe.
+            </p>
+          </div>
+        </div>
+        <p class="title">Guardians of the Galaxy</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/avengers_2.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/avengers_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              The Avengers face Ultron, an artificial intelligence created by
+              Tony Stark that turns against humanity. As chaos spreads, the team
+              must come together to prevent global destruction and restore
+              peace.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Age of Ultron</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_2/ant_man_1.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_2/ant_man_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Scott Lang, a former thief, becomes Ant-Man after stealing a suit
+              from his former colleague. He must use his new abilities to help
+              his mentor and stop a dangerous criminal from stealing the
+              technology.
+            </p>
+          </div>
+        </div>
+        <p class="title">Ant-Man</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/captain_america_3.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_3/captain_america_3.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              The Avengers are divided over government control and
+              accountability, leading to a major internal conflict. Steve Rogers
+              and Tony Stark stand on opposite sides, testing friendships and
+              loyalties.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain America: Civil War</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/doctor_strange_1.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_3/doctor_strange_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              After a life-changing accident, Stephen Strange discovers the
+              world of mystic arts and hidden dimensions. He trains to become a
+              powerful sorcerer and protect reality from dark supernatural
+              threats.
+            </p>
+          </div>
+        </div>
+        <p class="title">Doctor Strange</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/guardians_2.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./Assets/Images/Posters/Phase_3/guardians_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              The Guardians continue their adventures while uncovering the truth
+              about Peter Quill’s mysterious parentage. They face emotional
+              challenges and powerful enemies that test their bond as a family.
+            </p>
+          </div>
+        </div>
+        <p class="title">Guardians of the Galaxy Vol.2</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/spider_man_1.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/sm_homecoming.jpg"
+              alt="Homecoming"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Peter Parker struggles to balance his school life with his
+              responsibilities as Spider-Man. He faces the Vulture, a dangerous
+              villain dealing in advanced weapon technology.
+            </p>
+          </div>
+        </div>
+        <p class="title">Spider-Man: Homecoming</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/thor_3.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/thor_3.jpg"
+              alt="thor-3"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Thor is trapped on a distant planet and must fight his way back to
+              Asgard to stop Ragnarok. He faces his powerful sister Hela while
+              teaming up with Hulk for survival.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thor: Ragnarok</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/black_panther_1.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/black_panther_1.jpg"
+              alt="black panther-1"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              T’Challa returns to Wakanda to take his rightful place as king
+              after his father’s death. He faces a powerful enemy who challenges
+              his leadership and the future of his nation.
+            </p>
+          </div>
+        </div>
+        <p class="title">Black Panther</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/avengers_3.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/avengers_3.jpg"
+              alt="infinity war"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              The Avengers and their allies must stop Thanos from collecting all
+              the Infinity Stones. As he grows stronger, the fate of the entire
+              universe hangs in the balance.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Infinity War</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/ant_man_2.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/ant_man_2.jpg"
+              alt="antman-2"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Scott Lang teams up with Hope van Dyne to explore the Quantum
+              Realm and rescue her long-lost mother. As they uncover hidden
+              secrets, they face new enemies and race against time to complete
+              their mission.
+            </p>
+          </div>
+        </div>
+        <p class="title">Ant-Man and the Wasp</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/captain_marvel_1.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/captain_marvel.jpg"
+              alt="captain-marvel"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Carol Danvers becomes one of the universe’s most powerful heroes
+              while caught in a galactic war between alien races. As she
+              uncovers her past, she discovers her true identity and the
+              strength within her.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain Marvel</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/avengers_4.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/avengers_4.jpg"
+              alt="endgame"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              After Thanos wipes out half of all life, the remaining Avengers
+              unite for one final mission to undo the destruction. They travel
+              through time to recover the Infinity Stones, leading to an epic
+              and emotional conclusion.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Endgame</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_3/spider_man_2.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_3/sm_far_from_home.jpg"
+              alt="Far-From-Home"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Peter Parker travels to Europe with his classmates but is thrust
+              into a new adventure when he encounters the mysterious Mysterio.
+              Together, they must stop a powerful threat from destroying their
+              world.
+            </p>
+          </div>
+        </div>
+        <p class="title">Spider-Man: Far from Home</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/black_widow_1.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/black_widow.jpg"
+              alt="Black-Widow"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Natasha Romanoff confronts her past and the dark secrets of the
+              Red Room that trained her. She faces dangerous enemies while
+              seeking redemption for her past actions.
+            </p>
+          </div>
+        </div>
+        <p class="title">Black Widow</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/shang_chi_1.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/shang_chi.jpg"
+              alt="shang-chi"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Shang-Chi is forced to face his past when his father draws him
+              into the powerful Ten Rings organization. He must embrace his true
+              identity and fight to stop a dangerous legacy.
+            </p>
+          </div>
+        </div>
+        <p class="title">Shang-Chi and the Legend of the Ten Rings</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/eternals_1.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/eternals.jpg"
+              alt="Eternals"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Immortal beings known as Eternals reunite after centuries to
+              protect Earth from their ancient enemies, the Deviants. As they
+              struggle with their purpose, they must decide whether to interfere
+              in humanity’s fate.
+            </p>
+          </div>
+        </div>
+        <p class="title">Eternals</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/spider_man_3.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/sm_no_way_home.jpg"
+              alt="No-way-Home"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Peter Parker’s identity is exposed, causing chaos in his personal
+              life and putting his loved ones in danger. A spell gone wrong
+              opens the multiverse, bringing villains from other realities into
+              his world.
+            </p>
+          </div>
+        </div>
+        <p class="title">Spider-Man: No Way Home</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/doctor_strange_2.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/doctor_strange_2.jpg"
+              alt="Doctor-strange-2"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Doctor Strange explores the multiverse to protect a young girl
+              with the power to travel between realities. He faces powerful
+              threats and must confront the consequences of his actions.
+            </p>
+          </div>
+        </div>
+        <p class="title">Doctor Strange in the Multiverse of Madness</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/thor_4.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/thor_4.jpg"
+              alt="Thor-4"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Thor seeks peace but must return to action when a god-killer
+              threatens the universe. With allies old and new, he faces both
+              emotional and physical battles.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thor: Love and Thunder</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_4/black_panther_2.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_4/black_panther_2.jpg"
+              alt="Black-panther-2"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Wakanda faces global threats while mourning the loss of King
+              T’Challa. New leaders rise as they protect their nation and honor
+              their legacy.
+            </p>
+          </div>
+        </div>
+        <p class="title">Black Panther: Wakanda Forever</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/ant_man_3.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/ant_man_3.jpg"
+              alt="Quantumania"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Scott Lang and his family enter the Quantum Realm and encounter
+              the powerful Kang. They must navigate a strange world and stop a
+              threat that could affect all timelines.
+            </p>
+          </div>
+        </div>
+        <p class="title">Ant-Man and the Wasp: Quantumania</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/guardians_3.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/guardians_3.jpg"
+              alt="Guardians-3"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              The Guardians embark on a mission to save one of their own while
+              confronting painful pasts. They must come together as a family to
+              face their greatest emotional challenge.
+            </p>
+          </div>
+        </div>
+        <p class="title">Guardians of the Galaxy Vol.3</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/the_marvels.html" class="card left_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/the_marvels.jpg"
+              alt="The-marvels"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Captain Marvel teams up with Ms. Marvel and Monica Rambeau when
+              their powers become linked. They must work together to stop a
+              cosmic threat and restore balance.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Marvels</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/deadpool_and_wolverine.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/deadpool_and_wolverine.jpg"
+              alt="Deadpool-and-Wolverine"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Deadpool enters the MCU and teams up with Wolverine for a chaotic
+              and action-packed adventure across timelines. Blending humor and
+              violence, the film is expected to explore multiverse elements and
+              unexpected team-ups.
+            </p>
+          </div>
+        </div>
+        <p class="title">Deadpool & Wolverine</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/captain_america_4.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/captain_america_4.jpg"
+              alt="Captain-America-4"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Sam Wilson takes on the mantle of Captain America and faces new
+              global threats in a changing political world. He must prove
+              himself as a leader while dealing with powerful enemies and
+              complex alliances.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain America: Brave New World</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_5/thunderbolts.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_5/thunderbolts.jpg"
+              alt="Thunderbolts*"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              The Thunderbolts are a team of anti-heroes and former villains who
+              must work together to stop a threat that could destroy the world.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thunderbolts*</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_6/fantastic_four_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_6/fantastic_four.jpg"
+              alt="Fantastic-four"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Marvel’s first family enters the MCU, gaining powers after a
+              scientific experiment goes wrong. They must balance their personal
+              lives while protecting Earth from cosmic threats.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Fantastic Four: First Steps</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_6/sm_brand_new_day.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_6/sm_brand_new_day.jpg"
+              alt="Brand-New-Day"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Following major multiverse events, Peter Parker begins a fresh
+              chapter with a new identity and challenges. This story is expected
+              to focus on a more grounded Spider-Man while rebuilding his life.
+            </p>
+          </div>
+        </div>
+        <p class="title">Spider-Man Brand New Day</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_6/avengers_5.html" class="card center_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_6/avengers_5.jpg"
+              alt="Avengers-5"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              The Avengers face their greatest threat yet as they battle against
+              a powerful enemy that could lead to the destruction of the world.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Doomsday</p>
+      </a>
+
+      <a href="./Assets/Templates/Phase_6/avengers_6.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="./Assets/Images/Posters/Phase_6/avengers_6.jpg"
+              alt="Avengers-6"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Heroes from different universes collide in a battle that
+              determines the fate of the multiverse. Inspired by comic
+              storylines, it may bring together characters across timelines for
+              an epic finale.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Secret Wars</p>
+      </a>
+    </div>
+        <br><br>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo / About -->
+        <div class="footer-section">
+          <h2>MARVEL ENTERTAINMENT</h2>
+          <p>
+            A fan-made Marvel Cinematic Universe website showcasing movies,
+            cast, and details from all MCU phases.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-section">
+          <h3>Explore</h3>
+          <a href="#">Home</a>
+          <a href="#">Movies</a>
+          <a href="#">Series</a>
+        </div>
+
+        <!-- MCU Phases -->
+        <div class="footer-section">
+          <h3>MCU Phases</h3>
+          <a href="#">Phase 1</a>
+          <a href="#">Phase 2</a>
+          <a href="#">Phase 3</a>
+          <a href="#">Phase 4+</a>
+        </div>
+
+        <!-- Info -->
+        <div class="footer-section">
+          <h3>Info</h3>
+          <a href="#">About Project</a>
+          <a href="#">Disclaimer</a>
+          <p>All content belongs to Marvel Studios.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Marvel Fan Website</p>
+      </div>
+    </footer>
+    <script src="./Assets/Script/script.js"></script>
+  </body>
+</html>
