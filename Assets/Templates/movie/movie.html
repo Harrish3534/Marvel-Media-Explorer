@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvel</title>
-    <link rel="stylesheet" href="./Assets/Style/style.css" />
+    <link rel="stylesheet" href="../../Style/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
       rel="stylesheet"
@@ -12,15 +12,26 @@
   </head>
   <body>
     <header class="header">
-      <img src="./Assets/Images/logo/marvel_logo.jpg" />
+      <img src="../../Images/logo/marvel_logo.jpg" />
       <h3>Marvel Entertainment</h3>
       <input type="text" id="search" placeholder="Search movies..." />
     </header>
 
     <nav class="nav">
-      <a href="./home.html">Home</a>
-      <a href="./index.html" class="active">Movies</a>
-      <a href="#series">Series</a>
+      <a href="../../../home.html">Home</a>
+      <a href="./movie.html" class="active">Movies</a>
+      <a href="../tv_shows/tvshows.html">TV Shows</a>
+      <div class="dropdown">
+        <a class="dropbtn">MCU Phases</a>
+        <div class="dropdown-content">
+          <a href="#phase1">Phase 1</a>
+          <a href="#phase2">Phase 2</a>
+          <a href="#phase3">Phase 3</a>
+          <a href="#phase4">Phase 4</a>
+          <a href="#phase5">Phase 5</a>
+          <a href="#phase6">Phase 6</a>
+        </div>
+      </div>
     </nav>
 
     <section class="container">
@@ -29,10 +40,10 @@
         <h2>No Results Found</h2>
         <p>We couldn't find any Marvel movies matching <span id="searchTerm"></span></p>
       </div>
-      <a href="./Assets/Templates/Phase_1/iron_man_1.html" class="card">
+      <a href="../../Templates/Phase_1/iron_man_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/iron_man_1.jpg" />
+            <img src="../../Images/Posters/Phase_1/iron_man_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -45,10 +56,10 @@
         <p class="title">Iron Man 1</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_1/hulk_1.html" class="card">
+      <a href="../../Templates/Phase_1/hulk_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/hulk_1.jpg" />
+            <img src="../../Images/Posters/Phase_1/hulk_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -61,10 +72,10 @@
         <p class="title">The Incredible Hulk</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_1/iron_man_2.html" class="card">
+      <a href="../../Templates/Phase_1/iron_man_2.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/iron_man_2.jpg" />
+            <img src="../../Images/Posters/Phase_1/iron_man_2.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -77,10 +88,10 @@
         <p class="title">Iron Man 2</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_1/thor_1.html" class="card">
+      <a href="../../Templates/Phase_1/thor_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/thor_1.jpg" />
+            <img src="../../Images/Posters/Phase_1/thor_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -93,10 +104,10 @@
         <p class="title">Thor</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_1/captain_america_1.html" class="card">
+      <a href="../../Templates/Phase_1/captain_america_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/captain_america_1.jpg" />
+            <img src="../../Images/Posters/Phase_1/captain_america_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -109,10 +120,10 @@
         <p class="title">Captain America: The First Avenger</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_1/avengers_1.html" class="card">
+      <a href="../../Templates/Phase_1/avengers_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_1/avengers_1.jpg" />
+            <img src="../../Images/Posters/Phase_1/avengers_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -125,10 +136,10 @@
         <p class="title">The Avengers</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/iron_man_3.html" class="card center_card">
+      <a href="../../Templates/Phase_2/iron_man_3.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/iron_man_3.jpg" />
+            <img src="../../Images/Posters/Phase_2/iron_man_3.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -141,10 +152,10 @@
         <p class="title">Iron Man 3</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/thor_2.html" class="card right_card">
+      <a href="../../Templates/Phase_2/thor_2.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/thor_2.jpg" />
+            <img src="../../Images/Posters/Phase_2/thor_2.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -156,10 +167,10 @@
         <p class="title">Thor: The Dark World</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/captain_america_2.html" class="card left_card">
+      <a href="../../Templates/Phase_2/captain_america_2.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/captain_america_2.jpg" />
+            <img src="../../Images/Posters/Phase_2/captain_america_2.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -171,10 +182,10 @@
         <p class="title">Captain America: The Winter Soldier</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/Guardians_1.html" class="card">
+      <a href="../../Templates/Phase_2/guardians_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/guardians_1.jpg" />
+            <img src="../../Images/Posters/Phase_2/guardians_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -188,10 +199,10 @@
         <p class="title">Guardians of the Galaxy</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/avengers_2.html" class="card center_card">
+      <a href="../../Templates/Phase_2/avengers_2.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/avengers_2.jpg" />
+            <img src="../../Images/Posters/Phase_2/avengers_2.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -205,10 +216,10 @@
         <p class="title">Avengers: Age of Ultron</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_2/ant_man_1.html" class="card right_card">
+      <a href="../../Templates/Phase_2/ant_man_1.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_2/ant_man_1.jpg" />
+            <img src="../../Images/Posters/Phase_2/ant_man_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -222,10 +233,10 @@
         <p class="title">Ant-Man</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/captain_america_3.html" class="card left_card">
+      <a href="../../Templates/Phase_3/captain_america_3.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_3/captain_america_3.jpg" />
+            <img src="../../Images/Posters/Phase_3/captain_america_3.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -239,10 +250,10 @@
         <p class="title">Captain America: Civil War</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/doctor_strange_1.html" class="card center_card">
+      <a href="../../Templates/Phase_3/doctor_strange_1.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_3/doctor_strange_1.jpg" />
+            <img src="../../Images/Posters/Phase_3/doctor_strange_1.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -256,10 +267,10 @@
         <p class="title">Doctor Strange</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/guardians_2.html" class="card">
+      <a href="../../Templates/Phase_3/guardians_2.html" class="card">
         <div class="card-inner">
           <div class="card-front">
-            <img src="./Assets/Images/Posters/Phase_3/guardians_2.jpg" />
+            <img src="../../Images/Posters/Phase_3/guardians_2.jpg" />
           </div>
           <div class="card-back">
             <p>
@@ -272,11 +283,11 @@
         <p class="title">Guardians of the Galaxy Vol.2</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/spider_man_1.html" class="card right_card">
+      <a href="../../Templates/Phase_3/spider_man_1.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/sm_homecoming.jpg"
+              src="../../Images/Posters/Phase_3/sm_homecoming.jpg"
               alt="Homecoming"
             />
           </div>
@@ -291,11 +302,11 @@
         <p class="title">Spider-Man: Homecoming</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/thor_3.html" class="card left_card">
+      <a href="../../Templates/Phase_3/thor_3.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/thor_3.jpg"
+              src="../../Images/Posters/Phase_3/thor_3.jpg"
               alt="thor-3"
             />
           </div>
@@ -310,11 +321,11 @@
         <p class="title">Thor: Ragnarok</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/black_panther_1.html" class="card center_card">
+      <a href="../../Templates/Phase_3/black_panther_1.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/black_panther_1.jpg"
+              src="../../Images/Posters/Phase_3/black_panther_1.jpg"
               alt="black panther-1"
             />
           </div>
@@ -329,11 +340,11 @@
         <p class="title">Black Panther</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/avengers_3.html" class="card">
+      <a href="../../Templates/Phase_3/avengers_3.html" class="card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/avengers_3.jpg"
+              src="../../Images/Posters/Phase_3/avengers_3.jpg"
               alt="infinity war"
             />
           </div>
@@ -348,11 +359,11 @@
         <p class="title">Avengers: Infinity War</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/ant_man_2.html" class="card right_card">
+      <a href="../../Templates/Phase_3/ant_man_2.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/ant_man_2.jpg"
+              src="../../Images/Posters/Phase_3/ant_man_2.jpg"
               alt="antman-2"
             />
           </div>
@@ -368,11 +379,11 @@
         <p class="title">Ant-Man and the Wasp</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/captain_marvel_1.html" class="card left_card">
+      <a href="../../Templates/Phase_3/captain_marvel_1.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/captain_marvel.jpg"
+              src="../../Images/Posters/Phase_3/captain_marvel.jpg"
               alt="captain-marvel"
             />
           </div>
@@ -388,11 +399,11 @@
         <p class="title">Captain Marvel</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/avengers_4.html" class="card center_card">
+      <a href="../../Templates/Phase_3/avengers_4.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/avengers_4.jpg"
+              src="../../Images/Posters/Phase_3/avengers_4.jpg"
               alt="endgame"
             />
           </div>
@@ -408,11 +419,11 @@
         <p class="title">Avengers: Endgame</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_3/spider_man_2.html" class="card center_card">
+      <a href="../../Templates/Phase_3/spider_man_2.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_3/sm_far_from_home.jpg"
+              src="../../Images/Posters/Phase_3/sm_far_from_home.jpg"
               alt="Far-From-Home"
             />
           </div>
@@ -428,11 +439,11 @@
         <p class="title">Spider-Man: Far from Home</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/black_widow_1.html" class="card right_card">
+      <a href="../../Templates/Phase_4/black_widow_1.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/black_widow.jpg"
+              src="../../Images/Posters/Phase_4/black_widow.jpg"
               alt="Black-Widow"
             />
           </div>
@@ -447,11 +458,11 @@
         <p class="title">Black Widow</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/shang_chi_1.html" class="card left_card">
+      <a href="../../Templates/Phase_4/shang_chi_1.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/shang_chi.jpg"
+              src="../../Images/Posters/Phase_4/shang_chi.jpg"
               alt="shang-chi"
             />
           </div>
@@ -466,11 +477,11 @@
         <p class="title">Shang-Chi and the Legend of the Ten Rings</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/eternals_1.html" class="card center_card">
+      <a href="../../Templates/Phase_4/eternals_1.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/eternals.jpg"
+              src="../../Images/Posters/Phase_4/eternals.jpg"
               alt="Eternals"
             />
           </div>
@@ -486,11 +497,11 @@
         <p class="title">Eternals</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/spider_man_3.html" class="card center_card">
+      <a href="../../Templates/Phase_4/spider_man_3.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/sm_no_way_home.jpg"
+              src="../../Images/Posters/Phase_4/sm_no_way_home.jpg"
               alt="No-way-Home"
             />
           </div>
@@ -506,11 +517,11 @@
         <p class="title">Spider-Man: No Way Home</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/doctor_strange_2.html" class="card right_card">
+      <a href="../../Templates/Phase_4/doctor_strange_2.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/doctor_strange_2.jpg"
+              src="../../Images/Posters/Phase_4/doctor_strange_2.jpg"
               alt="Doctor-strange-2"
             />
           </div>
@@ -525,11 +536,11 @@
         <p class="title">Doctor Strange in the Multiverse of Madness</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/thor_4.html" class="card left_card">
+      <a href="../../Templates/Phase_4/thor_4.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/thor_4.jpg"
+              src="../../Images/Posters/Phase_4/thor_4.jpg"
               alt="Thor-4"
             />
           </div>
@@ -544,11 +555,11 @@
         <p class="title">Thor: Love and Thunder</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_4/black_panther_2.html" class="card center_card">
+      <a href="../../Templates/Phase_4/black_panther_2.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_4/black_panther_2.jpg"
+              src="../../Images/Posters/Phase_4/black_panther_2.jpg"
               alt="Black-panther-2"
             />
           </div>
@@ -563,11 +574,11 @@
         <p class="title">Black Panther: Wakanda Forever</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/ant_man_3.html" class="card center_card">
+      <a href="../../Templates/Phase_5/ant_man_3.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/ant_man_3.jpg"
+              src="../../Images/Posters/Phase_5/ant_man_3.jpg"
               alt="Quantumania"
             />
           </div>
@@ -582,11 +593,11 @@
         <p class="title">Ant-Man and the Wasp: Quantumania</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/guardians_3.html" class="card right_card">
+      <a href="../../Templates/Phase_5/guardians_3.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/guardians_3.jpg"
+              src="../../Images/Posters/Phase_5/guardians_3.jpg"
               alt="Guardians-3"
             />
           </div>
@@ -601,11 +612,11 @@
         <p class="title">Guardians of the Galaxy Vol.3</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/the_marvels.html" class="card left_card">
+      <a href="../../Templates/Phase_5/the_marvels.html" class="card left_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/the_marvels.jpg"
+              src="../../Images/Posters/Phase_5/the_marvels.jpg"
               alt="The-marvels"
             />
           </div>
@@ -620,11 +631,11 @@
         <p class="title">The Marvels</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/deadpool_and_wolverine.html" class="card center_card">
+      <a href="../../Templates/Phase_5/deadpool_and_wolverine.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/deadpool_and_wolverine.jpg"
+              src="../../Images/Posters/Phase_5/deadpool_and_wolverine.jpg"
               alt="Deadpool-and-Wolverine"
             />
           </div>
@@ -640,11 +651,11 @@
         <p class="title">Deadpool & Wolverine</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/captain_america_4.html" class="card center_card">
+      <a href="../../Templates/Phase_5/captain_america_4.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/captain_america_4.jpg"
+              src="../../Images/Posters/Phase_5/captain_america_4.jpg"
               alt="Captain-America-4"
             />
           </div>
@@ -660,11 +671,11 @@
         <p class="title">Captain America: Brave New World</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_5/thunderbolts.html" class="card">
+      <a href="../../Templates/Phase_5/thunderbolts.html" class="card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_5/thunderbolts.jpg"
+              src="../../Images/Posters/Phase_5/thunderbolts.jpg"
               alt="Thunderbolts*"
             />
           </div>
@@ -678,11 +689,11 @@
         <p class="title">Thunderbolts*</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_6/fantastic_four_1.html" class="card">
+      <a href="../../Templates/Phase_6/fantastic_four_1.html" class="card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_6/fantastic_four.jpg"
+              src="../../Images/Posters/Phase_6/fantastic_four.jpg"
               alt="Fantastic-four"
             />
           </div>
@@ -697,11 +708,11 @@
         <p class="title">The Fantastic Four: First Steps</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_6/sm_brand_new_day.html" class="card center_card">
+      <a href="../../Templates/Phase_6/sm_brand_new_day.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_6/sm_brand_new_day.jpg"
+              src="../../Images/Posters/Phase_6/sm_brand_new_day.jpg"
               alt="Brand-New-Day"
             />
           </div>
@@ -716,11 +727,11 @@
         <p class="title">Spider-Man Brand New Day</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_6/avengers_5.html" class="card center_card">
+      <a href="../../Templates/Phase_6/avengers_5.html" class="card center_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_6/avengers_5.jpg"
+              src="../../Images/Posters/Phase_6/avengers_5.jpg"
               alt="Avengers-5"
             />
           </div>
@@ -734,11 +745,11 @@
         <p class="title">Avengers: Doomsday</p>
       </a>
 
-      <a href="./Assets/Templates/Phase_6/avengers_6.html" class="card right_card">
+      <a href="../../Templates/Phase_6/avengers_6.html" class="card right_card">
         <div class="card-inner">
           <div class="card-front">
             <img
-              src="./Assets/Images/Posters/Phase_6/avengers_6.jpg"
+              src="../../Images/Posters/Phase_6/avengers_6.jpg"
               alt="Avengers-6"
             />
           </div>

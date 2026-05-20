@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel</title>
+    <link rel="stylesheet" href="../../Style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="../../Images/logo/marvel_logo.jpg" />
+      <h3>Marvel Entertainment</h3>
+      <input type="text" id="search" placeholder="Search movies..." />
+    </header>
+
+    <nav class="nav">
+      <a href="../../../home.html">Home</a>
+      <a href="../movie/movie.html">Movies</a>
+      <a href="../tv_shows/tvshows.html" class="active">TV Shows</a>
+      <div class="dropdown">
+        <a class="dropbtn">MCU Phases</a>
+        <div class="dropdown-content">
+          <a href="#phase1">Phase 1</a>
+          <a href="#phase2">Phase 2</a>
+          <a href="#phase3">Phase 3</a>
+          <a href="#phase4">Phase 4</a>
+          <a href="#phase5">Phase 5</a>
+          <a href="#phase6">Phase 6</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div id="noResults" class="no-results" style="display: none">
+        <div class="no-results-icon">🎬</div>
+        <h2>No Results Found</h2>
+        <p>
+          We couldn't find any Marvel movies matching
+          <span id="searchTerm"></span>
+        </p>
+      </div>
+      <a href="../tv_shows/disney+shows/wanda_vision.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/TV_Shows/wanda_vision.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Wanda Maximoff and Vision live a seemingly perfect suburban life,
+              but strange events and shifting realities make them question
+              everything around them.
+            </p>
+          </div>
+        </div>
+        <p class="title">WandaVision</p>
+      </a>
+
+      <a href="../../Templates/Phase_1/hulk_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_1/hulk_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Bruce Banner transforms into the Hulk whenever he gets angry.
+              While searching for a cure, he is hunted by the military and faces
+              a powerful enemy known as the Abomination.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Incredible Hulk</p>
+      </a>
+
+      <a href="../../Templates/Phase_1/iron_man_2.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_1/iron_man_2.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Tony Stark struggles with his identity as Iron Man while facing
+              new enemies and a deadly health issue. He must protect his
+              technology from falling into the wrong hands.
+            </p>
+          </div>
+        </div>
+        <p class="title">Iron Man 2</p>
+      </a>
+
+      <a href="../../Templates/Phase_1/thor_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_1/thor_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Thor, the god of thunder, is banished to Earth after acting
+              recklessly. He must learn humility and protect Earth from his
+              brother Loki’s dangerous plans.
+            </p>
+          </div>
+        </div>
+        <p class="title">Thor</p>
+      </a>
+
+      <a href="../../Templates/Phase_1/captain_america_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_1/captain_america_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Steve Rogers transforms into Captain America during World War II.
+              He fights against the Red Skull and becomes a symbol of courage
+              and justice.
+            </p>
+          </div>
+        </div>
+        <p class="title">Captain America: The First Avenger</p>
+      </a>
+
+      <a href="../../Templates/Phase_1/avengers_1.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_1/avengers_1.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Earth’s mightiest heroes—Iron Man, Captain America, Thor, Hulk,
+              Black Widow, and Hawkeye—join forces to stop Loki and an alien
+              invasion threatening humanity.
+            </p>
+          </div>
+        </div>
+        <p class="title">The Avengers</p>
+      </a>
+
+      <a
+        href="../../Templates/Phase_2/iron_man_3.html"
+        class="card center_card"
+      >
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="../../Images/Posters/Phase_2/iron_man_3.jpg" />
+          </div>
+          <div class="card-back">
+            <p>
+              Tony Stark faces a powerful terrorist known as the Mandarin while
+              dealing with personal trauma. He must rely on his intelligence
+              more than his suit.
+            </p>
+          </div>
+        </div>
+        <p class="title">Iron Man 3</p>
+      </a>
+
+      <a href="../../Templates/Phase_6/avengers_6.html" class="card right_card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img
+              src="../../Images/Posters/Phase_6/avengers_6.jpg"
+              alt="Avengers-6"
+            />
+          </div>
+          <div class="card-back">
+            <p>
+              Heroes from different universes collide in a battle that
+              determines the fate of the multiverse. Inspired by comic
+              storylines, it may bring together characters across timelines for
+              an epic finale.
+            </p>
+          </div>
+        </div>
+        <p class="title">Avengers: Secret Wars</p>
+      </a>
+    </section>
+    <br /><br />
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo / About -->
+        <div class="footer-section">
+          <h2>MARVEL ENTERTAINMENT</h2>
+          <p>
+            A fan-made Marvel Cinematic Universe website showcasing movies,
+            cast, and details from all MCU phases.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-section">
+          <h3>Explore</h3>
+          <a href="#">Home</a>
+          <a href="#">Movies</a>
+          <a href="#">Series</a>
+        </div>
+
+        <!-- MCU Phases -->
+        <div class="footer-section">
+          <h3>MCU Phases</h3>
+          <a href="#">Phase 1</a>
+          <a href="#">Phase 2</a>
+          <a href="#">Phase 3</a>
+          <a href="#">Phase 4+</a>
+        </div>
+
+        <!-- Info -->
+        <div class="footer-section">
+          <h3>Info</h3>
+          <a href="#">About Project</a>
+          <a href="#">Disclaimer</a>
+          <p>All content belongs to Marvel Studios.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Marvel Fan Website</p>
+      </div>
+    </footer>
+    <script src="../../Script/script.js"></script>
+  </body>
+</html>
